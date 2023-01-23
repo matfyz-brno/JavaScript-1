@@ -1,0 +1,4 @@
+Zadání domácího úkolu
+ • Vytvořte tlačítko, při jehož stisknutí se změní barva Čtvereček na zelenou.
+ • Upravte kód tak, aby se výsledek funkce secti() zobrazil v prvku s ID vysledek až po stiknutí nově přidaného tlačítka "Zobraz výsledek".
+ • Uprav funkci upozorni() tak, aby se navíc vypisoval text i do konzole a také nahradil text v elementu Čtvereček.
