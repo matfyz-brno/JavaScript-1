@@ -14,7 +14,7 @@ function changeColor() {
 }
 
 function upozorni(){
+    console.log("Pozor, pozor!!");
     let upozorneni = document.querySelector("#ctv1");
     upozorneni.textContent = "Pozor, pozor!!";
 }
-console.log("Pozor, pozor!!");
