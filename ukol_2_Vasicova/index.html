@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript a DOM</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Změna tříd, události - úkol 2</h1>
+<br></br>
+
+	<p id="paragraph">Pudl prdl pudr. Pudl prdl pudr. </p>
+	<button onclick = "change_color()" class="tlacitko1">Červene písmo po kliknutí</button>
+<br></br>
+
+	<button onclick = "get_bigger()" class="tlacitko1">Větší písmo po kliknutí</button>
+<br></br>
+
+	<button onclick = "play_music()" class="tlacitko">Play</button>
+	<button onclick = "pause_music()" class="tlacitko">Pause</button>
+	<button onclick = "restart_music()" class="tlacitko">Restart</button>
+	<button onclick = "min_music()" class="tlacitko">Sound Min</button>
+	<button onclick = "normal_music()" class="tlacitko">Sound Normal</button>
+	<button onclick = "max_music()" class="tlacitko">Sound Max</button>
+	<audio class="my_player" src="audio/jingle_bells.mp3" preload="auto"></audio>
+<br></br>
+
+</body>
+<script src="/main.js"></script>
+
+</html>
