@@ -1,1 +1,1 @@
-# JavaScript1 homework for semestral digital academy from Czechitas
+# JavaScript1 - folders with homeworks for semestral digital academy from Czechitas
