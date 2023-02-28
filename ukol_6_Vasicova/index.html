@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Moje stránka</title>
+
+    <script src="https://unpkg.com/validator.tool/dist/validator.min.js"></script> 
+    <script src="https://unpkg.com/dayjs@latest/dayjs.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+
+    <title>Lekce 6  - domácí úkol</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="container">
+       
+        <header>
+         <h1>Domácí úkol - lekce 6 </h1>
+        </header>
+        <main>
+            <p>Zde vložte datum ve formátu DD.MM.YYYY</p>
+            <input type="text" id="first_date" placeholder="Vložte datum zde..">
+            <br> <br>
+            <button onclick="show_first()">Click me - 1. homework</button> 
+            <p id="first_homework1"></p>
+            <p id="first_homework2"></p>
+            <br> <br>
+              
+            <p>Zde vložte den v měsíci ve formátu "DD"</p>
+            <input type="text" id="second_day" placeholder="Den...">
+            <br> <br>
+            <p>Zde vložte měsíc v roce  ve formátu "MM"</p>
+            <input type="text" id="second_month" placeholder="Měsíc...">
+            <br> <br>
+            <p>Zde vložte rok  ve formátu "YYYY"</p>
+            <input type="text" id="second_year" placeholder="Rok...">
+            <br> <br>
+            <button onclick="show_second()">Click me - 2. homework</button> 
+            <p id="second_homework"></p>
+            <br><br>
+
+            <p>Zde vložte číslo, které Vám zaokrouhlím a la Python</p>
+            <input type="text" id="cisilko" placeholder="Vaše číslo...">
+            <br> <br>
+            <button onclick="show_third()">Click me - 3. homework</button> 
+            <p id="third_homework"></p>
+            <br> <br>
+            
+
+        </main>
+        
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+   
+  </body>
+</html>
