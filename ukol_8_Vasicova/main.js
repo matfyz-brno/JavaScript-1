@@ -45,7 +45,7 @@ document.addEventListener('keydown', zmenKostku);
 */
 
 /*UKOL 3*/
-
+/*
 const budik = () => {
   const alarm = document.querySelector(".alarm")
   alarm.classList.add("alarm--ring")
@@ -71,3 +71,5 @@ const zrusOdpocet2 = () => {
 }
 const tlacitko2 = document.querySelector(".btnElm2")
 tlacitko2.addEventListener("click", zrusOdpocet2)
+
+*/
