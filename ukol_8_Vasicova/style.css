@@ -1,0 +1,91 @@
+/* Google fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i|Pacifico&subset=latin-ext');
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 50px;
+    font: 18px/1.5 sans-serif;
+    background-color: white;
+    color: #333;
+
+}
+
+.msg {
+    padding: 10px;
+}
+.msg--valid {
+    background-color: green;
+}
+.msg--invalid {
+    background-color: red;
+}
+
+
+.size {
+	width: 10rem;
+	height: 10rem;
+}
+
+
+
+.container {
+    width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .alarm {
+    width: 30rem;
+    height: 30rem;
+    background-size: contain;
+    background-image: url('assets/alarm.svg');
+  }
+  
+  @keyframes ring {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    25% {
+      transform: rotateZ(5deg);
+    }
+    50% {
+      transform: rotateZ(0deg);
+    }
+    75% {
+      transform: rotateZ(-5deg);
+    }
+    100% {
+      transform: rotateZ(0deg);
+    }
+  }
+  
+  .alarm--ring {
+    animation: ring 100ms 50;
+  }
+
+
+  button {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 5%;
+    display: block;
+  }
+  
